@@ -19,7 +19,7 @@
 
 ## Hosted
 
-- you can find the site hosted [here](https://crypto-tracker.voxeldigital.ca)
+- you can find the site hosted [here](https://crypto-tracker.voxeldigital.ca/)
 
 
 

@@ -1,3 +1,28 @@
+# Crypto Token Tracker
+
+## Description
+
+- This project displays the top coins on coingecko, by default the user can see the top 10 coins the the platform, and can view up to 110 tokens
+- the call to get the top tokens also gets any favorited coins, to ensure users favorites aren't cleared int he event a tracked token falls below the top 10
+- Users can use a search bar to search the list by symbol or name
+- user can select favorites from the list of top tokens. favorites are saved in local storage
+- when returning or refreshing the site, the users can view all their tracked/favorite tokens,
+
+## Limitations
+
+- the free API has some constrains, to ensure the favorites call and the top token call don't interfere with eachother, there is a 1 second delate on the favorites call
+- on occasion, if the api is hit too frequently, the calls will break for at most 1 minute. 
+
+## Run on local
+
+- npm run dev 
+
+## Hosted
+
+- you can find the site hosted [here](https://crypto-tracker.voxeldigital.ca)
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

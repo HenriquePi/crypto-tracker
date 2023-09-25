@@ -9,17 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.10",
+    "@mui/styled-engine-sc": "^5.14.10",
+    "@mui/x-data-grid": "^6.15.0",
+    "@mui/x-data-grid-pro": "^6.15.0",
     "@types/node": "20.4.2",
     "@types/react": "18.2.15",
     "@types/react-dom": "18.2.7",
+    "axios": "^1.5.0",
     "eslint": "8.45.0",
     "eslint-config-next": "13.4.10",
+    "localforage": "^1.10.0",
     "next": "13.4.10",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-responsive-carousel": "^3.2.23",
     "react-slick": "^0.29.0",
     "sass": "^1.64.0",
+    "styled-components": "^5.3.11",
     "typescript": "5.1.6"
   },
   "devDependencies": {

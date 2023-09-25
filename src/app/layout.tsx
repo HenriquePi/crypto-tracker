@@ -4,10 +4,11 @@ import { Nav } from '@/layout/Nav'
 import { Footer } from '@/layout/Footer'
 
 import styles from './layout.module.scss';
+import { UserProvider } from '@/utils/userContext';
 
 export const metadata: Metadata = {
-  title: 'Henrique Pinto Software Developer',
-  description: 'Details about software development candidate Henrique Pinto. Specializes in React frameworks and TypeScript.',
+  title: '',
+  description: '',
 }
 
 export default function RootLayout({
@@ -16,12 +17,12 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={styles.wrapper}>
-        <Nav />
-        {children}
-        <Footer />
-      </body>
-    </html>
+    <UserProvider>
+      <html lang="en">
+        <body className={styles.wrapper}>
+          {children}
+        </body>
+      </html>
+    </UserProvider>
   )
 }

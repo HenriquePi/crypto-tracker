@@ -5,5 +5,5 @@
   justify-content: start;
   flex: 1 1 0;
   gap: var(--gap);
-  padding-top: 80px;
+  padding: var(--gap);
 }

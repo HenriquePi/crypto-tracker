@@ -12,6 +12,7 @@
 
 - the free API has some constrains, to ensure the favorites call and the top token call don't interfere with eachother, there is a 1 second delate on the favorites call
 - on occasion, if the api is hit too frequently, the calls will break for at most 1 minute. 
+- there is a watermark because a premium material UI component has the selection feature i wanted
 
 ## Run on local
 
